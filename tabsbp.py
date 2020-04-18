@@ -16,9 +16,9 @@ expected=0;
 if n%4!=0 :
     n=n+4-(n%4)
 xk=list([0,1,2,3])
-scores=list()
-for i in range(0,n):
-    scores.append(0)
+#scores=list()
+#for i in range(0,n):
+#   scores.append(0)
 for e in range(0,10000) :
     scores=list()
     for i in range(0,n):
